@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 
-const char* ssid = "AC1200";
-const char* password = "Tplink@123";
+const char* ssid = "AC1200";            //add your network name
+const char* password = "Tplink@123";    //change your password
 
 WiFiServer server(80);
 
